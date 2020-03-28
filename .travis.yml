@@ -6,10 +6,6 @@ cache:
   directories:
     - $HOME/.env/pip
 script:
-  - python3 --version
-  - pip3 install virtualenv
-  - virtualenv .env
-  - source .env/bin/activate
-  - pip3 install pyleniumio
-  - pip3 freeze
+  - python --version
+  - pip install pyleniumio
   - python3 -m pytest ui_tests/test_qap_dev.py
