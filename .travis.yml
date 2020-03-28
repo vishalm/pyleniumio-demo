@@ -6,7 +6,10 @@ services:
   - docker
 script:
   - python --version
-  - pip install pyleniumio
+  - python -m pip install --upgrade pip
+  - pip3 install --upgrade pytest
+  - pip3 install codecov
+  - pip3 install pyleniumio
   - docker-compose up -d
   - sleep 20
   - python -m pytest ui_tests/test_qap_dev_docker.py --remote_url="http://localhost:4444/wd/hub"
