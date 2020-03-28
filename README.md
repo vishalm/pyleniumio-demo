@@ -11,6 +11,7 @@
 | **CI Provider**  | **Time Taken(Approx)** |
 | ------------- | ------------- |
 | **Travis** | [![Travis](https://travis-ci.org/vishalm/pyleniumio-demo.svg)](https://travis-ci.org/vishalm/pyleniumio-demo) |
+| **Github Actions**  | ![Pylenium demo](https://github.com/vishalm/pyleniumio-demo/workflows/Python%20application/badge.svg?branch=master)|
 
 
 ## Documentation
