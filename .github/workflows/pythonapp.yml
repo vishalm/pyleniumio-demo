@@ -26,6 +26,9 @@ jobs:
       run: docker-compose up -d
     - name: Test with pytest
       run: |
+        sleep 10
+    - name: Test with pytest
+      run: |
         docker ps
         ls -ll
         python -m pytest ui_tests/test_qap_dev.py --remote_url="http://localhost:4444/wd/hub"
