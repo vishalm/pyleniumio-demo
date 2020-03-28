@@ -1,5 +1,5 @@
 dist: trusty
-language: python3
+language: python
 python:
     - "3.8"
 services:
