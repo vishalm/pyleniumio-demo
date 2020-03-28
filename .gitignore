@@ -1,0 +1,6 @@
+test_results
+test_log.txt
+.env/
+.python-version
+**__pycache__**
+
