@@ -24,7 +24,7 @@ jobs:
         pip install pyleniumio
     - name: Build the stack
       run: docker-compose up -d
-    - name: Test with pytest
+    - name: Sleep
       run: |
         sleep 10
     - name: Test with pytest
