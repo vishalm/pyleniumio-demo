@@ -27,5 +27,5 @@ jobs:
     - name: Test with pytest
       run: |
         docker ps
-        ls
+        ls -ll
         python -m pytest ui_tests/test_qap_dev.py --remote_url="http://localhost:4444/wd/hub"
