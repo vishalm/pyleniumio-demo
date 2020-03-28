@@ -1,11 +1,10 @@
-os: linux
 language: python
-
+sudo: false
 python:
-    - "3.8.0"
-  cache:
-    directories:
-      - $HOME/.env/pip
+  - "3.8.0"
+cache:
+  directories:
+    - $HOME/.env/pip
 script:
   - python3 --version
   - pip3 install virtualenv
