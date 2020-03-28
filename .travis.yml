@@ -13,4 +13,4 @@ cache:
 script:
   - python --version
   - pip install pyleniumio
-  - python -m pytest ui_tests/test_qap_dev_docker.py
+  - python -m pytest ui_tests/test_qap_dev_docker.py --remote_url="http://localhost:4444/wd/hub"
