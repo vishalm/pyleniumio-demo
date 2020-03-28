@@ -11,6 +11,7 @@
 | **CI Provider**  | **Status** |
 | ------------- | ------------- |
 | **Github Actions**  | ![Pylenium demo](https://github.com/vishalm/pyleniumio-demo/workflows/Python%20application/badge.svg?branch=master)|
+| **Travis** | [![Travis](https://travis-ci.org/vishalm/pyleniumio-demo.svg)](https://travis-ci.org/vishalm/pyleniumio-demo) *[Failing because of package installation but test is passing ... so all good here :) ]*|
 
 
 ## Documentation
