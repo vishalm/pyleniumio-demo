@@ -1,0 +1,15 @@
+language: python
+sudo: false
+python:
+  - "3.8"
+cache:
+  directories:
+    - $HOME/.env/pip
+script:
+  - python --version
+  - pip3 install virtualenv
+  - virtualenv .env
+  - source .env/bin/activate
+  - pip install pyleniumio
+  - pip freeze
+  - python -m pytest ui_tests/test_qap_dev.py
