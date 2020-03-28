@@ -9,7 +9,7 @@ script:
   - python --version
   - python -m pip install --upgrade pip
   - pip3 install --upgrade pytest
-  - pip3 install pyleniumio || :
+  - pip3 install pyleniumio || true
   - docker-compose up -d
   - sleep 20
   - python -m pytest ui_tests/test_qap_dev_docker.py --remote_url="http://localhost:4444/wd/hub"
