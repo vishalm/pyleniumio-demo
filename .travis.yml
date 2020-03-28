@@ -7,6 +7,7 @@ cache:
     - $HOME/.env/pip
 script:
   - python3 --version
+  - pip install pyleniumio
   - pip3 install virtualenv
   - virtualenv .env
   - source .env/bin/activate
