@@ -11,6 +11,6 @@ before_install:
   - docker run -d --link selenium-hub:hub --name selenium-node-firefox -v /dev/shm:/dev/shm selenium/node-firefox:3.8.1-francium
 script:
   - python --version
-  - pip install pyleniumio
+  - pip3 install pyleniumio
   - sleep 5
   - python -m pytest ui_tests/test_qap_dev_docker.py --remote_url="http://localhost:4444/wd/hub"
