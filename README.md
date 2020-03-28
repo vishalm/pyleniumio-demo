@@ -16,13 +16,14 @@ Th
 
 
 ## Description 
-This is the demo impelementation of pylenium
-* Added Travis Integration 
-* Added Github Actions 
-* Added one small test which is in the document example
-* To run on CI added docker support.
-* Documentation is insightful, please read before adopting
-* Quick setup will work. 
+Demo to showcase the implementation of [pylenium](https://elsnoman.gitbook.io/pylenium/)
+### What I added
+  * Added Travis Integration 
+  * Added Github Actions 
+  * Added one small test which is in the document example
+  * To run on CI added docker support.
+  * Documentation is insightful, please read before adopting
+  * Quick setup work. 
 
 ## Documentation
 ```url
