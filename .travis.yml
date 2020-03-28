@@ -1,8 +1,9 @@
-dist: trusty
-
-language: python         # this works for Linux but is an error on macOS or Windows
-python: 3
-install: pip3 install --upgrade pip
+language: python
+python:
+    - "3"
+  cache:
+    directories:
+      - $HOME/.env/pip
 script:
   - python3 --version
   - pip3 install virtualenv

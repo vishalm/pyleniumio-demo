@@ -1,6 +1,18 @@
 # Pyleniumio Demo
 
 
+<p>
+  <a href="https://twitter.com/intent/follow?screen_name=vishalm84"><img align="left" src="https://img.shields.io/twitter/follow/vishalm84.svg?style=social&label=Follow%20@vishalm84" alt="Follow on Twitter"></a>
+<br />
+</p>
+
+
+
+| **CI Provider**  | **Time Taken(Approx)** |
+| ------------- | ------------- |
+| **Travis** | [![Travis](https://travis-ci.org/vishalm/pyleniumio-demo.svg)](https://travis-ci.org/vishalm/pyleniumio-demo) |
+
+
 ## Documentation
 ```url
 https://elsnoman.gitbook.io/pylenium/
