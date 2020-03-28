@@ -3,7 +3,7 @@
     "browser": "chrome",
     "remote_url": "",
     "wait_time": 10,
-    "options": []
+    "options": ["--disable-dev-shm-usage","--no-sandbox"]
   },
 
   "logging":{
