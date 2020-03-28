@@ -1,15 +1,17 @@
-language: python
-sudo: false
-python:
-  - "3.8"
-cache:
-  directories:
-    - $HOME/.env/pip
+dist: trusty
+
+language: python         # this works for Linux but is an error on macOS or Windows
+python: 3
+jobs:
+  include:
+    - name: "Python 3.8.0 on Xenial Linux"
+      python: 3.8           # this works for Linux but is ignored on macOS or Windows
+install: pip3 install --upgrade pip
 script:
-  - python --version
+  - python3 --version
   - pip3 install virtualenv
   - virtualenv .env
   - source .env/bin/activate
   - pip install pyleniumio
   - pip freeze
-  - python -m pytest ui_tests/test_qap_dev.py
+  - python3 -m pytest ui_tests/test_qap_dev.py
