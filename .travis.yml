@@ -4,7 +4,6 @@ services:
   - docker
 before_install:
   - docker-compose up -d
-sudo: false
 python:
   - "3.8.0"
 cache:
@@ -13,4 +12,5 @@ cache:
 script:
   - python --version
   - pip install pyleniumio
+  - sleep 5
   - python -m pytest ui_tests/test_qap_dev_docker.py --remote_url="http://localhost:4444/wd/hub"
