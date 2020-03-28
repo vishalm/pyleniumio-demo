@@ -22,8 +22,8 @@ jobs:
         python-version: 3.8
     - name: Install dependencies
       run: |
-        python3 -m pip install --upgrade pip
-        pip3 install pyleniumio
+        python -m pip install --upgrade pip
+        pip install pyleniumio
     - name: Test with pytest
       run: |
-        python3 -m pytest ui_tests/test_qap_dev.py
+        python -m pytest ui_tests/test_qap_dev.py
